@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'BwModelica';
+    src: url('otf/BwModelica-Medium.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'BwModelica', Arial, Helvetica, sans-serif;
+    /*height: 100%*/
+}
+
+body {
+       background-image: linear-gradient(to right, #F2E3D5, #3CA6A6);
+       font-family: 'BwModelica', Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #a5bebe;
+    border-radius: 10px; /* arredondar as bordinhas */
+    box-shadow: 5px 5px 15px #012e40bd;
+    width: 600px;
+    padding: 10px; /* engordadinha pra normalizar o texto */
+    margin: auto; /* centralizar texto */
+}
+
+h1 {
+    font-family: 'BwModelica', Arial, Helvetica, sans-serif;
+    color: #024352;
+    text-align: center;
+    text-shadow: 1px 1px 2px #0227369a;
+}
+
+h2 {
+  color: #026773;
+}
+
+p {
+
+    text-align: justify;
+    
+} 
+
