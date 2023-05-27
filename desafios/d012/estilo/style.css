@@ -67,15 +67,17 @@ section.normal {
 }
 
 section.imagem {
-    display: inline-block;
-    padding: 5px;
-    background-color: rgb(31, 30, 30);
+    
+    
+    background-color: rgb(46, 44, 44);
     color: white;
 }
 
 section.imagem > p {
+    padding: 5px;
+    display: inline-block;
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.63)
+    background-color: rgba(36, 34, 34, 0.63)
 }
 
 footer {
